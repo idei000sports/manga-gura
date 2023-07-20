@@ -8,7 +8,7 @@ import { useRouter } from 'next/router'
 const db = getFirestore(app);
 
 
-export default function add_genre() {
+export default function Add_genre() {
   const mydata = []
   const [data, setData] = useState(mydata)
   const [message, setMessage] = useState('add data');

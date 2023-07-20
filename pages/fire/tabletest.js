@@ -1,7 +1,7 @@
 
 
 
-export default function tabletest() {
+export default function Tabletest() {
     return(
         <div>
             <p>hello</p>

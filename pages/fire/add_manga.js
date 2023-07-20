@@ -7,7 +7,7 @@ import styles   from '../../styles/Table.module.css'
 
 const db = getFirestore(app);
 
-export default function add_manga() {
+export default function Add_manga() {
   const mydata = []
   const [data, setData] = useState(mydata)
   const [message, setMessage] = useState('add manga');

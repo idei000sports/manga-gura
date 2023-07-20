@@ -14,7 +14,7 @@ const genreArr = [
 
 
 
-export default function only_add() {
+export default function Only_add() {
   const db = getFirestore(app);
   const genres = [];
   const [genreList, setGenreList] = useState(genres)
