@@ -29,6 +29,8 @@ export default function List(){
         getDocs(query(collection(db, 'manga'), where("genre", "array-contains" , router.query.genre))).then((snapshot)=> {
             snapshot.forEach((document)=> {
                 const doc = document.data()
+                console.log("list.js doc : ↓↓↓");
+                console.log(doc)
                 mydata.push(
                     <>
                         <div className="card">

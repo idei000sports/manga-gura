@@ -11,6 +11,8 @@ const firebaseConfig = {
     appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
 }
 
+console.log("envファイルの読み取り確認 : SUCCESSならOK" + process.env.NEXT_PUBLIC_TEST_ENV_FILE)
+
 
 export const app = initializeApp(firebaseConfig)
 export const db = getFirestore(app);
